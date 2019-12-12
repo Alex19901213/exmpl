@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests">
+    <test name="Front-end">
+
+        <parameter name="driverName" value="Iphone X"></parameter>
+
+        <classes>
+            <class name="Tests.Registration"/>
+            <class name="Tests.Shop"/>
+            <class name="Tests.Shopping"/>
+        </classes>
+    </test>
+</suite>
